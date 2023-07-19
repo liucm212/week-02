@@ -1,0 +1,35 @@
+// card
+.card{
+    color: #15161D;
+    border: 1px solid #E3E3E3;
+    padding: 1rem;
+    &-title{
+      font-size: 1.25rem;
+    }
+    &-subtitle{
+      font-size: 1.25rem;
+    }
+}
+
+// button
+.button{
+  padding: 12px 24px;
+  border-radius: 32px;
+  &-white{
+    background-color: var(--bs-white);
+    color: var(--bs-dark);
+  }
+  &-dark{
+    background-color: var(--bs-dark);
+    color: var(--bs-white);
+  }
+}
+
+.project{
+  &-img{
+    &--196{
+      width: 196px;
+      height: 196px;
+    }
+  }
+}
