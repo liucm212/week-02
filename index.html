@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="all.css" />
     <title>個人網站</title>
   </head>
@@ -11,12 +12,14 @@
     <div class="bg-dark">
       <div class="container-xl">
         <ul class="list d-flex justify-content-between pt-40">
-          <li class="list-item">WILLIAM LEE</li>
-          <li class="list-item">BASED IN TAIWAN</li>
-          <li class="list-item">
+          <li data-aos="fade-in" class="list-item">WILLIAM LEE</li>
+          <li data-aos="fade-in" class="list-item">BASED IN TAIWAN</li>
+          <li data-aos="fade-in" class="list-item">
             CURRENTLY FRONT END<br />ENGINEER AT HEXSCHOOL
           </li>
-          <li class="list-item text-end"><a href="#">CONTACT ME</a></li>
+          <li data-aos="fade-in" class="list-item text-end">
+            <a href="#">CONTACT ME</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -30,7 +33,7 @@
               alt="男性白人的黑白上半身照，光打向男子的左臉打過來，所以左臉較明顯。"
             />
           </div>
-          <div class="col-6">
+          <div data-aos="fade-left" class="col-6">
             <div class="banner-content d-flex flex-column">
               <h2 class="fz-2">Hi<br />I’m a front-end developer</h2>
               <h1 class="text-light-green fz-1 ms-auto">William</h1>
@@ -55,31 +58,36 @@
         <div class="row justify-content-between gx-24">
           <div class="col-5">
             <div class="intro-content mb-24">
-              <h2 class="fz-2 mb-36">Introduction</h2>
-              <p class="fz-3 mb-32">
+              <h2 data-aos="fade-right" class="fz-2 mb-36">Introduction</h2>
+              <p data-aos="fade-right" class="fz-3 mb-32">
                 Hi, I'm William Lee, a Front-End Developer with a passion for
                 building beautiful and responsive websites that provide an
                 optimal user experience.
               </p>
               <div class="d-flex">
                 <img
+                  data-aos="fade-up"
                   class="me-16"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true"
                   alt="白色的小菱形，中間最白，其餘向外漸漸透明，像漫畫中有東西在發光時的裝飾符號。"
                 />
                 <img
+                  data-aos="fade-up"
+                  data-aos-delay="50"
                   class="me-16"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true"
                   alt="白色的小菱形，中間最白，其餘向外漸漸透明，像漫畫中有東西在發光時的裝飾符號。"
                 />
                 <img
+                  data-aos="fade-up"
+                  data-aos-delay="100"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true"
                   alt="白色的小菱形，中間最白，其餘向外漸漸透明，像漫畫中有東西在發光時的裝飾符號。"
                 />
               </div>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-2" data-aos="zoom-out-left">
             <div class="intro-img">
               <img
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle.png?raw=true"
@@ -87,10 +95,10 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-2" data-aos="zoom-out-left">
             <div class="intro-img intro-img--photographer"></div>
           </div>
-          <div class="col-3">
+          <div class="col-3" data-aos="zoom-out-left">
             <div class="intro-img">
               <img
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people-2.png?raw=true"
@@ -106,7 +114,10 @@
       <div class="container-xl">
         <div class="row justify-content-between align-items-center">
           <div class="col-6">
-            <ol class="row g-24 justify-content-between text-dark">
+            <ol
+              data-aos="fade-right"
+              class="row g-24 justify-content-between text-dark"
+            >
               <li class="col-6">
                 <div class="card">
                   <!-- & 該號碼屬於無意義的排列，所以可以用span來單純排版就好 -->
@@ -140,7 +151,7 @@
               </li>
             </ol>
           </div>
-          <div class="col-5">
+          <div class="col-5" data-aos="fade-left">
             <div class="about">
               <h3 class="mb-36 fz-2">About me</h3>
               <p class="fz-3">
@@ -158,7 +169,7 @@
     <div class="bg-dark">
       <div class="container-xl">
         <div class="row justify-content-between align-items-center">
-          <div class="col-auto">
+          <div class="col-auto" data-aos="fade-right" data-aos-delay="400">
             <div class="contact-content d-flex align-items-center">
               <h2 class="contact-title fz-2">Contact me</h2>
               <img
@@ -171,6 +182,7 @@
             <div class="row align-items-center gx-20">
               <div class="col-auto">
                 <img
+                  data-aos="fade-up-left"
                   class="contact-img-item contact-img--active"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true"
                   alt="藍色像電動手把得圖案，有眼睛，背景也是藍色的。"
@@ -178,6 +190,8 @@
               </div>
               <div class="col-auto">
                 <img
+                  data-aos="fade-up-left"
+                  data-aos-delay="50"
                   class="contact-img-item"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true"
                   alt="粉色的簡約相機風。"
@@ -185,6 +199,8 @@
               </div>
               <div class="col-auto">
                 <img
+                  data-aos="fade-up-left"
+                  data-aos-delay="100"
                   class="contact-img-item"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true"
                   alt="綠色的對話符號框。"
@@ -199,12 +215,12 @@
     <div class="bg-white py-160 text-dark">
       <div class="container-xl">
         <div class="row justify-content-end">
-          <div class="col-7">
+          <div class="col-7" data-aos="fade-down">
             <h2 class="fz-2 mb-16">My Projects</h2>
           </div>
         </div>
         <div class="row gx-24">
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-right">
             <a href="#">
               <img
                 class="project-img--big"
@@ -218,6 +234,7 @@
               <div class="col-auto">
                 <a href="#">
                   <img
+                    data-aos="fade-left"
                     class="project-img--196"
                     src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2015.png?raw=true"
                     alt="一行行的程式碼，前面有一個人在看這些程式碼，但只露出左半臉。"
@@ -225,7 +242,10 @@
                 </a>
               </div>
               <!-- 在col上設定d-flex && flex-column才會是用100%的height來撐 -->
-              <div class="col-9 d-flex flex-column justify-content-between">
+              <div
+                class="col-9 d-flex flex-column justify-content-between"
+                data-aos="fade-left"
+              >
                 <p>
                   I've worked on a variety of websites, including e-commerce
                   sites, blogs, and landing pages. I take pride in creating
@@ -242,7 +262,7 @@
                   />
                 </a>
               </div>
-              <div class="col-auto">
+              <div class="col-auto" data-aos="fade-up">
                 <a href="#">
                   <img
                     src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2014.png?raw=true"
@@ -250,7 +270,7 @@
                   />
                 </a>
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <a href="#">
                   <img
                     src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2029.png?raw=true"
@@ -277,5 +297,31 @@
         </div>
       </div>
     </footer>
+
+    <!-- import aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- initialize aos -->
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 800, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+      })
+    </script>
   </body>
 </html>
